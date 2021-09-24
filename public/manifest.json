@@ -1,0 +1,19 @@
+{
+  "name": "Rippieripstok",
+  "description": "Quickly gain access to streaming media links",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["webRequest", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/16.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
+  }
+}
